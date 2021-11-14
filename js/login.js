@@ -36,7 +36,7 @@ const firebaseConfig = {
                 if(localStorage.getItem("Rol")=="Administrador"){
                     location.href="../public/indexAdmonistrador.html";
                 }else{
-                    location.href="../public/index.html";
+                    location.href="../index.html";
                 }
                 
             }else{
